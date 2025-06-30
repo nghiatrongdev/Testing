@@ -10,7 +10,7 @@ class PhotoListViewModel {
     private let fetchUseCase: FetchPhotosUseCase
     var photos: [PhotoEntity] = []
     private var currentPage = 1
-    let pageSize = 15
+    let pageSize = 100
     var isLoading = false
     var hasMore = true
     
